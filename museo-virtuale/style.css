@@ -11,6 +11,10 @@ a {
     color: #aaa;
 }
 
+a:hover {
+    color: white;
+}
+
 img {
     width: 80vw;
     margin: 16px auto;
