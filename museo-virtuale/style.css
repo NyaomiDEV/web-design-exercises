@@ -12,11 +12,11 @@ a {
 }
 
 img {
-    padding: 16px;
-    box-sizing: border-box;
     width: 80vw;
-    aspect-ratio: 1.77;
-    margin: auto;
+    margin: 16px auto;
+    border: 5px solid black;
+    max-height: 50vh;
+    width: auto;
     display: block;
     object-fit: contain;
 }
