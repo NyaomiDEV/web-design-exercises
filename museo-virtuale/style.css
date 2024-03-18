@@ -15,10 +15,10 @@ img {
     padding: 16px;
     box-sizing: border-box;
     width: 80vw;
-    aspect-ratio: 16/9;
+    aspect-ratio: 1.77;
     margin: auto;
     display: block;
-    object-fit: cover;
+    object-fit: contain;
 }
 
 header {
@@ -34,6 +34,11 @@ header {
 
 header h1 {
     margin: 0;
+}
+
+header h2 {
+    margin: 0;
+    opacity: 0.5;
 }
 
 footer {
