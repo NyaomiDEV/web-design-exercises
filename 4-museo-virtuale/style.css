@@ -12,7 +12,11 @@ a {
 }
 
 a:hover {
-    color: white;
+    color: #fff;
+}
+
+a:active {
+    color: #ddd;
 }
 
 img {
