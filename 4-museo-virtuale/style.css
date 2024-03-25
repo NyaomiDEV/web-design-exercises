@@ -20,13 +20,13 @@ a:active {
 }
 
 img {
-    width: 80vw;
     margin: 16px auto;
     border: 5px solid black;
-    max-height: 50vh;
-    width: auto;
     display: block;
     object-fit: contain;
+    width: max-content;
+    height: max-content;
+    max-height: 50vh;
 }
 
 header {
@@ -51,6 +51,28 @@ header h2 {
 
 main {
     margin: 16px;
+}
+
+section.flex {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+section.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    align-items: center;
+}
+
+section.flex img, section.grid img {
+    margin: 0;
+    max-width: calc(50vw - 64px);
+    max-height: unset;
 }
 
 footer {
