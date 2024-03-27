@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Permanent+Marker&display=swap');
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Montserrat, sans-serif;
+	background-color: #f0f0f0;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+	font-family: "Permanent Marker", sans-serif;
+	color: rgb(127, 35, 35);
+}
+
+header {
+	position: sticky;
+	top: 0;
+	display: block;
+	width: 100%;
+	padding: 1em;
+	box-sizing: border-box;
+	background-color: rgb(176, 48, 48);
+}
+
+header h1 {
+	margin: 0;
+	color: white;
+	text-align: center;
+}
+
+main {
+	padding: 1em max(1em, calc((100vw - 1280px) / 2));
+	padding-bottom: 3em;
+	margin: 0;
+	background-color: #fafafa;
+}
+
+footer {
+	display: block;
+	text-align: center;
+	font-size: .8em;
+	padding: 2em 1em;
+	box-sizing: border-box;
+	background-color: #f0f0f0;
+}
+
+figure {
+	float: right;
+	display: block;
+	width: 30em;
+	margin: 1em;
+}
+
+figure img {
+	width: 100%;
+}
+
+figure figcaption {
+	font-size: .8em;
+}
