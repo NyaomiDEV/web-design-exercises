@@ -52,8 +52,9 @@ figure {
 	margin: 1em;
 }
 
-figure img {
-	width: 100%;
+#image {
+	display: block;
+	max-width: 100%;
 }
 
 figure figcaption {
